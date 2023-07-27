@@ -1,0 +1,2514 @@
+.sect-1 {
+    background-color: lightgrey;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+.sansys {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    margin: 0px 0px 0px 120px;
+}
+.sansys h4 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.sansys h1 {
+    margin: 0;
+    font-size: 6rem;
+}
+
+.sect-2 {
+    display: flex;
+    padding: 90px 0px 90px 0px;
+    align-items: center ;
+}
+.memer {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 250px;
+}
+.sect-2 h3 {
+    width: 700px;
+    margin: 0px 0px 50px 0px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.sect-2 h5 {
+    width: 1300px;
+    font-weight: 300;
+    margin: 0px 0px 20px 0px;
+    font-size: 1vw;
+}
+
+.sect-3 {
+    padding: 60px 100px 40px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8faff;
+}
+.sect-3 h3 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #003fae;
+    margin: 0px 0px 80px 0px;
+}
+.sect-3 h4{
+    color: #003fae;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 0px 0px 25px 0px;
+}
+.sect-3 h5 {
+    font-size: 1.2rem;
+    width: 250px;
+    font-weight: 300;
+    margin: 0;
+}
+.meliputi-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 300px 300px 300px;
+    gap: 100px;
+}
+
+.meliputi-grid-kiri,
+.meliputi-grid-tengah,
+.meliputi-grid-kanan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.meliputi-grid-kiri img,
+.meliputi-grid-tengah img,
+.meliputi-grid-kanan img{
+    object-fit: cover;
+    background-color: #003fae;
+    height: 180px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+    -moz-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+    margin: 0px 0px 20px 0px;
+}
+.meliputi-grid-kanan img{
+    object-position: 0px -120px;
+}
+.meliputi-grid-tengah img {
+    object-position: -15px 0px;
+}
+.meliputi-grid-tengah h5,
+.meliputi-grid-kanan h5{
+    width: 250px;
+    margin-bottom: 100px;
+}
+.meliputi-grid-kiri h5{
+    margin-bottom: 100px;
+}
+
+.sesi-akhir {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 100px 30px 0px 30px;
+  }
+  .logo-software {
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+  }
+  .logo-software img {
+    height: 200px;
+    padding-top: 70px;
+  }
+  .logo-software .ansys-logo {
+    height: 100px;
+  }
+  .logo-software .open-logo {
+    margin: 0px 50px 0px 50px;
+  }
+  
+  .logo-standard {
+    display: flex;
+    align-items: center;
+    padding-bottom: 120px;
+  }
+  .logo-standard img {
+    height: 130px;
+    margin: 50px 30px 0px 80px;
+  }
+
+.sect-4 {
+    padding: 20px 50px 80px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(238, 238, 238);
+}
+.sect-4 h3{
+    margin: 50px 0px 70px 0px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #003fae;
+}
+.laya-grid {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 50px;
+}
+.laya-kiri-atas,
+.laya-tengah-atas,
+.laya-kanan-atas {
+    margin: 0px 0px 50px 0px;
+}
+.laya-kiri-atas,
+.laya-tengah-atas,
+.laya-kanan-atas,
+.laya-kiri-bawah,
+.laya-tengah-bawah,
+.laya-kanan-bawah {
+    background-color: white;
+    height: 500px;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+    -webkit-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+    -moz-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+}
+.laya-kiri-atas h5,
+.laya-tengah-atas h5,
+.laya-kanan-atas h5,
+.laya-kiri-bawah h5,
+.laya-tengah-bawah h5,
+.laya-kanan-bawah h5{
+    margin: 30px 0px 30px 0px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.laya-kiri-atas h6,
+.laya-tengah-atas h6,
+.laya-kanan-atas h6,
+.laya-kiri-bawah h6,
+.laya-tengah-bawah h6,
+.laya-kanan-bawah h6{
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 28px;
+    width: 250px;
+    margin: 0px 0px 50px 0px;
+}
+.laya-kiri-atas a,
+.laya-tengah-atas a,
+.laya-kanan-atas a,
+.laya-kiri-bawah a,
+.laya-tengah-bawah a,
+.laya-kanan-bawah a{
+    text-decoration: none;
+    color: rgb(26, 63, 228);
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.sect-6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logo-kiri {
+    margin: 50px 0px 30px 0px;
+}
+.logo-kiri h3 {
+    font-size: 2rem;
+    width: 650px;
+    text-align: center;
+    color: rgb(175, 175, 175);
+}
+.logo-kanan {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-color: lightgrey;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+}
+.logo-kanan img {
+    margin: 0px 0px 30px 0px;
+    width: 900px;
+}
+
+.sect-7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 0px 60px 0px;
+}
+.biaya {
+    display: flex;
+    align-items: center;
+}
+
+.biaya-kiri {
+    margin-right: 150px;
+}
+.biaya-kiri h3 {
+    font-size: 3.5rem;
+    font-weight: 600;
+    width: 500px;
+    margin: 0px 0px 25px 0px;
+    color: #003fae;
+}
+.biaya-kiri h6 {
+    width: 550px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 0px 0px 50px 0px;
+}
+.biaya-kanan img {
+    margin-left: 80px;
+    object-fit: cover;
+    height: 360px;
+    width: 560px;
+    border-radius: 20px;
+}
+.button {
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 50px;
+    color: white;
+    background-color: #003fae;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .button:hover {
+    transform: translateY(-3px);
+    background-color: #043282;
+  }
+  
+  .button:active {
+    background-color: #003fae;
+  }
+
+
+/* Batas Responsive */
+
+@media(max-width: 1920px) {
+    .sect-1 {
+        background-color: lightgrey;
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+    .sansys {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        margin: 0px 0px 0px 120px;
+    }
+    .sansys h4 {
+        margin: 0;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .sansys h1 {
+        margin: 0;
+        font-size: 6rem;
+    }
+    
+    .sect-2 {
+        display: flex;
+        padding: 90px 0px 90px 0px;
+        align-items: center ;
+    }
+    .memer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 250px;
+    }
+    .sect-2 h3 {
+        width: 700px;
+        margin: 0px 0px 50px 0px;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .sect-2 h5 {
+        width: 1300px;
+        font-weight: 300;
+        margin: 0px 0px 20px 0px;
+        font-size: 1vw;
+    }
+    
+    .sect-3 {
+        padding: 60px 100px 40px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f8faff;
+    }
+    .sect-3 h3 {
+        font-size: 3rem;
+        font-weight: 800;
+        color: #003fae;
+        margin: 0px 0px 80px 0px;
+    }
+    .sect-3 h4{
+        color: #003fae;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin: 0px 0px 25px 0px;
+    }
+    .sect-3 h5 {
+        font-size: 1.2rem;
+        width: 250px;
+        font-weight: 300;
+        margin: 0;
+    }
+    .meliputi-grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 300px 300px 300px;
+        gap: 100px;
+    }
+    
+    .meliputi-grid-kiri,
+    .meliputi-grid-tengah,
+    .meliputi-grid-kanan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .meliputi-grid-kiri img,
+    .meliputi-grid-tengah img,
+    .meliputi-grid-kanan img{
+        object-fit: cover;
+        background-color: #003fae;
+        height: 180px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -webkit-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -moz-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        margin: 0px 0px 20px 0px;
+    }
+    .meliputi-grid-kanan img{
+        object-position: 0px -120px;
+    }
+    .meliputi-grid-tengah img {
+        object-position: -15px 0px;
+    }
+    .meliputi-grid-tengah h5,
+    .meliputi-grid-kanan h5{
+        width: 250px;
+        margin-bottom: 100px;
+    }
+    .meliputi-grid-kiri h5{
+        margin-bottom: 100px;
+    }
+    
+    .sesi-akhir {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 100px 30px 0px 30px;
+      }
+      .logo-software {
+        display: flex;
+        align-items: center;
+        padding-bottom: 100px;
+      }
+      .logo-software img {
+        height: 200px;
+        padding-top: 70px;
+      }
+      .logo-software .ansys-logo {
+        height: 100px;
+      }
+      .logo-software .open-logo {
+        margin: 0px 50px 0px 50px;
+      }
+      
+      .logo-standard {
+        display: flex;
+        align-items: center;
+        padding-bottom: 120px;
+      }
+      .logo-standard img {
+        height: 130px;
+        margin: 50px 30px 0px 80px;
+      }
+    
+    .sect-4 {
+        padding: 20px 50px 80px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(238, 238, 238);
+    }
+    .sect-4 h3{
+        margin: 50px 0px 70px 0px;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #003fae;
+    }
+    .laya-grid {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        column-gap: 50px;
+    }
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas {
+        margin: 0px 0px 50px 0px;
+    }
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas,
+    .laya-kiri-bawah,
+    .laya-tengah-bawah,
+    .laya-kanan-bawah {
+        background-color: white;
+        height: 500px;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -webkit-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -moz-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+    }
+    .laya-kiri-atas h5,
+    .laya-tengah-atas h5,
+    .laya-kanan-atas h5,
+    .laya-kiri-bawah h5,
+    .laya-tengah-bawah h5,
+    .laya-kanan-bawah h5{
+        margin: 30px 0px 30px 0px;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    .laya-kiri-atas h6,
+    .laya-tengah-atas h6,
+    .laya-kanan-atas h6,
+    .laya-kiri-bawah h6,
+    .laya-tengah-bawah h6,
+    .laya-kanan-bawah h6{
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 28px;
+        width: 250px;
+        margin: 0px 0px 50px 0px;
+    }
+    .laya-kiri-atas a,
+    .laya-tengah-atas a,
+    .laya-kanan-atas a,
+    .laya-kiri-bawah a,
+    .laya-tengah-bawah a,
+    .laya-kanan-bawah a{
+        text-decoration: none;
+        color: rgb(26, 63, 228);
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    
+    .sect-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-kiri {
+        margin: 50px 0px 30px 0px;
+    }
+    .logo-kiri h3 {
+        font-size: 2rem;
+        width: 650px;
+        text-align: center;
+        color: rgb(175, 175, 175);
+    }
+    .logo-kanan {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        border-color: lightgrey;
+        border-radius: 20px;
+        border-width: 2px;
+        border-style: solid;
+    }
+    .logo-kanan img {
+        margin: 0px 0px 30px 0px;
+        width: 900px;
+    }
+    
+    .sect-7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 120px 0px 60px 0px;
+    }
+    .biaya {
+        display: flex;
+        align-items: center;
+    }
+    
+    .biaya-kiri {
+        margin-right: 150px;
+    }
+    .biaya-kiri h3 {
+        font-size: 3.5rem;
+        font-weight: 600;
+        width: 500px;
+        margin: 0px 0px 25px 0px;
+        color: #003fae;
+    }
+    .biaya-kiri h6 {
+        width: 550px;
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin: 0px 0px 50px 0px;
+    }
+    .biaya-kanan img {
+        margin-left: 80px;
+        object-fit: cover;
+        height: 360px;
+        width: 560px;
+        border-radius: 20px;
+    }
+    .button {
+        border: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 50px;
+        color: white;
+        background-color: #003fae;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+      
+      .button:hover {
+        transform: translateY(-3px);
+        background-color: #043282;
+      }
+      
+      .button:active {
+        background-color: #003fae;
+      }
+}
+
+@media(max-width: 1536px) {
+    .sect-1 {
+        background-color: lightgrey;
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+    .sansys {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        margin: 0px 0px 0px 120px;
+    }
+    .sansys h4 {
+        margin: 0;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    .sansys h1 {
+        margin: 0;
+        font-size: 5.5rem;
+    }
+    
+    .sect-2 {
+        display: flex;
+        padding: 100px 0px 100px 0px;
+        align-items: center ;
+    }
+    .memer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 200px;
+    }
+    .sect-2 h3 {
+        width: 700px;
+        margin: 0px 0px 50px 0px;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .sect-2 h5 {
+        width: 1000px;
+        font-weight: 300;
+        margin: 0px 0px 20px 0px;
+        font-size: 1vw;
+    }
+    
+    .sect-3 {
+        padding: 60px 100px 40px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f8faff;
+    }
+    .sect-3 h3 {
+        font-size: 3rem;
+        font-weight: 800;
+        color: #003fae;
+        margin: 0px 0px 80px 0px;
+    }
+    .sect-3 h4{
+        color: #003fae;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin: 0px 0px 25px 0px;
+    }
+    .sect-3 h5 {
+        font-size: 1.2rem;
+        width: 250px;
+        font-weight: 300;
+        margin: 0;
+    }
+    .meliputi-grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 300px 300px 300px;
+        gap: 100px;
+    }
+    
+    .meliputi-grid-kiri,
+    .meliputi-grid-tengah,
+    .meliputi-grid-kanan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .meliputi-grid-kiri img,
+    .meliputi-grid-tengah img,
+    .meliputi-grid-kanan img{
+        object-fit: cover;
+        background-color: #003fae;
+        height: 180px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -webkit-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -moz-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        margin: 0px 0px 20px 0px;
+    }
+    .meliputi-grid-kanan img{
+        object-position: 0px -120px;
+    }
+    .meliputi-grid-tengah img {
+        object-position: -15px 0px;
+    }
+    .meliputi-grid-tengah h5,
+    .meliputi-grid-kanan h5{
+        width: 250px;
+        margin-bottom: 100px;
+    }
+    .meliputi-grid-kiri h5{
+        margin-bottom: 100px;
+    }
+    
+    .sesi-akhir {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 100px 30px 0px 30px;
+      }
+      .logo-software {
+        display: flex;
+        align-items: center;
+        padding-bottom: 100px;
+      }
+      .logo-software img {
+        height: 200px;
+        padding-top: 70px;
+      }
+      .logo-software .ansys-logo {
+        height: 100px;
+      }
+      .logo-software .open-logo {
+        margin: 0px 50px 0px 50px;
+      }
+      
+      .logo-standard {
+        display: flex;
+        align-items: center;
+        padding-bottom: 120px;
+      }
+      .logo-standard img {
+        height: 130px;
+        margin: 50px 30px 0px 80px;
+      }
+    
+    .sect-4 {
+        padding: 20px 50px 80px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(238, 238, 238);
+    }
+    .sect-4 h3{
+        margin: 50px 0px 70px 0px;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #003fae;
+    }
+    .laya-grid {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        column-gap: 50px;
+    }
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas {
+        margin: 0px 0px 50px 0px;
+    }
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas,
+    .laya-kiri-bawah,
+    .laya-tengah-bawah,
+    .laya-kanan-bawah {
+        background-color: white;
+        height: 500px;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -webkit-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -moz-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+    }
+    .laya-kiri-atas h5,
+    .laya-tengah-atas h5,
+    .laya-kanan-atas h5,
+    .laya-kiri-bawah h5,
+    .laya-tengah-bawah h5,
+    .laya-kanan-bawah h5{
+        margin: 30px 0px 30px 0px;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    .laya-kiri-atas h6,
+    .laya-tengah-atas h6,
+    .laya-kanan-atas h6,
+    .laya-kiri-bawah h6,
+    .laya-tengah-bawah h6,
+    .laya-kanan-bawah h6{
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 28px;
+        width: 250px;
+        margin: 0px 0px 50px 0px;
+    }
+    .laya-kiri-atas a,
+    .laya-tengah-atas a,
+    .laya-kanan-atas a,
+    .laya-kiri-bawah a,
+    .laya-tengah-bawah a,
+    .laya-kanan-bawah a{
+        text-decoration: none;
+        color: rgb(26, 63, 228);
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    
+    .sect-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-kiri {
+        margin: 50px 0px 30px 0px;
+    }
+    .logo-kiri h3 {
+        font-size: 2rem;
+        width: 650px;
+        text-align: center;
+        color: rgb(175, 175, 175);
+    }
+    .logo-kanan {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        border-color: lightgrey;
+        border-radius: 20px;
+        border-width: 2px;
+        border-style: solid;
+    }
+    .logo-kanan img {
+        margin: 0px 0px 30px 0px;
+        width: 900px;
+    }
+    
+    .sect-7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 120px 0px 60px 0px;
+    }
+    .biaya {
+        display: flex;
+        align-items: center;
+    }
+    
+    .biaya-kiri {
+        margin-right: 150px;
+    }
+    .biaya-kiri h3 {
+        font-size: 3.5rem;
+        font-weight: 600;
+        width: 500px;
+        margin: 0px 0px 25px 0px;
+        color: #003fae;
+    }
+    .biaya-kiri h6 {
+        width: 550px;
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin: 0px 0px 50px 0px;
+    }
+    .biaya-kanan img {
+        margin-left: 80px;
+        object-fit: cover;
+        height: 360px;
+        width: 560px;
+        border-radius: 20px;
+    }
+    .button {
+        border: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 50px;
+        color: white;
+        background-color: #003fae;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+      
+      .button:hover {
+        transform: translateY(-3px);
+        background-color: #043282;
+      }
+      
+      .button:active {
+        background-color: #003fae;
+      }
+}
+
+@media(max-width: 1280px) {
+    .sect-1 {
+        background-color: lightgrey;
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+    .sansys {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        margin: 0px 0px 0px 120px;
+    }
+    .sansys h4 {
+        margin: 0;
+        font-size: 1.6rem;
+        font-weight: 400;
+    }
+    .sansys h1 {
+        margin: 0;
+        font-size: 5rem;
+    }
+    
+    .sect-2 {
+        display: flex;
+        padding: 100px 0px 100px 0px;
+        align-items: center ;
+    }
+    .memer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 160px;
+    }
+    .sect-2 h3 {
+        width: 600px;
+        margin: 0px 0px 50px 0px;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .sect-2 h5 {
+        width: 800px;
+        font-weight: 300;
+        margin: 0px 0px 20px 0px;
+        font-size: 1.2vw;
+    }
+    
+    .sect-3 {
+        padding: 60px 100px 40px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f8faff;
+    }
+    .sect-3 h3 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #003fae;
+        margin: 0px 0px 80px 0px;
+    }
+    .sect-3 h4{
+        color: #003fae;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin: 0px 0px 25px 0px;
+    }
+    .sect-3 h5 {
+        font-size: 1.2rem;
+        width: 250px;
+        font-weight: 300;
+        margin: 0;
+    }
+    .meliputi-grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 300px 300px 300px;
+        gap: 100px;
+    }
+    
+    .meliputi-grid-kiri,
+    .meliputi-grid-tengah,
+    .meliputi-grid-kanan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .meliputi-grid-kiri img,
+    .meliputi-grid-tengah img,
+    .meliputi-grid-kanan img{
+        object-fit: cover;
+        background-color: #003fae;
+        height: 180px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -webkit-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -moz-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        margin: 0px 0px 20px 0px;
+    }
+    .meliputi-grid-kanan img{
+        object-position: 0px -120px;
+    }
+    .meliputi-grid-tengah img {
+        object-position: -15px 0px;
+    }
+    .meliputi-grid-tengah h5,
+    .meliputi-grid-kanan h5{
+        width: 250px;
+        margin-bottom: 100px;
+    }
+    .meliputi-grid-kiri h5{
+        margin-bottom: 100px;
+    }
+    
+    .sesi-akhir {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 100px 30px 0px 30px;
+      }
+      .logo-software {
+        display: flex;
+        align-items: center;
+        padding-bottom: 100px;
+      }
+      .logo-software img {
+        height: 200px;
+        padding-top: 70px;
+      }
+      .logo-software .ansys-logo {
+        height: 100px;
+      }
+      .logo-software .open-logo {
+        margin: 0px 50px 0px 50px;
+      }
+      
+      .logo-standard {
+        display: flex;
+        align-items: center;
+        padding-bottom: 120px;
+      }
+      .logo-standard img {
+        height: 130px;
+        margin: 50px 30px 0px 80px;
+      }
+    
+    .sect-4 {
+        padding: 20px 50px 80px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(238, 238, 238);
+    }
+    .sect-4 h3{
+        margin: 50px 0px 70px 0px;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #003fae;
+    }
+    .laya-grid {
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        column-gap: 50px;
+    }
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas {
+        margin: 0px 0px 50px 0px;
+    }
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas,
+    .laya-kiri-bawah,
+    .laya-tengah-bawah,
+    .laya-kanan-bawah {
+        background-color: white;
+        height: 500px;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -webkit-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -moz-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+    }
+    .laya-kiri-atas h5,
+    .laya-tengah-atas h5,
+    .laya-kanan-atas h5,
+    .laya-kiri-bawah h5,
+    .laya-tengah-bawah h5,
+    .laya-kanan-bawah h5{
+        margin: 30px 0px 30px 0px;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+    .laya-kiri-atas h6,
+    .laya-tengah-atas h6,
+    .laya-kanan-atas h6,
+    .laya-kiri-bawah h6,
+    .laya-tengah-bawah h6,
+    .laya-kanan-bawah h6{
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 28px;
+        width: 250px;
+        margin: 0px 0px 50px 0px;
+    }
+    .laya-kiri-atas a,
+    .laya-tengah-atas a,
+    .laya-kanan-atas a,
+    .laya-kiri-bawah a,
+    .laya-tengah-bawah a,
+    .laya-kanan-bawah a{
+        text-decoration: none;
+        color: rgb(26, 63, 228);
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    
+    .sect-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-kiri {
+        margin: 50px 0px 30px 0px;
+    }
+    .logo-kiri h3 {
+        font-size: 2rem;
+        width: 650px;
+        text-align: center;
+        color: rgb(175, 175, 175);
+    }
+    .logo-kanan {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        border-color: lightgrey;
+        border-radius: 20px;
+        border-width: 2px;
+        border-style: solid;
+    }
+    .logo-kanan img {
+        margin: 0px 0px 30px 0px;
+        width: 900px;
+    }
+    
+    .sect-7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 120px 0px 60px 0px;
+    }
+    .biaya {
+        display: flex;
+        align-items: center;
+    }
+    
+    .biaya-kiri {
+        margin-right: 100px;
+    }
+    .biaya-kiri h3 {
+        font-size: 3.5rem;
+        font-weight: 600;
+        width: 500px;
+        margin: 0px 0px 25px 0px;
+        color: #003fae;
+    }
+    .biaya-kiri h6 {
+        width: 550px;
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin: 0px 0px 50px 0px;
+    }
+    .biaya-kanan img {
+        margin-left: 80px;
+        object-fit: cover;
+        height: 260px;
+        width: 400px;
+        border-radius: 20px;
+    }
+    .button {
+        border: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 50px;
+        color: white;
+        background-color: #003fae;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+      
+      .button:hover {
+        transform: translateY(-3px);
+        background-color: #043282;
+      }
+      
+      .button:active {
+        background-color: #003fae;
+      }
+}
+
+@media(max-width: 1024px) {
+    .sect-1 {
+        background-color: lightgrey;
+        height: 500px;
+        display: flex;
+        align-items: center;
+    }
+    .sansys {
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+        margin: 0px 0px 0px 80px;
+    }
+    .sansys h4 {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .sansys h1 {
+        margin: 0;
+        font-size: 4rem;
+    }
+    
+    .sect-2 {
+        display: flex;
+        padding: 100px 0px 100px 0px;
+        align-items: center ;
+    }
+    .memer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 100px;
+    }
+    .sect-2 h3 {
+        width: 600px;
+        margin: 0px 0px 50px 0px;
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+    .sect-2 h5 {
+        width: 650px;
+        font-weight: 300;
+        margin: 0px 0px 20px 0px;
+        font-size: 1.2vw;
+    }
+    
+    .sect-3 {
+        padding: 60px 100px 40px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f8faff;
+    }
+    .sect-3 h3 {
+        font-size: 2.5rem;
+        font-weight: 800;
+        color: #003fae;
+        margin: 0px 0px 80px 0px;
+    }
+    .sect-3 h4{
+        color: #003fae;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin: 0px 0px 25px 0px;
+    }
+    .sect-3 h5 {
+        font-size: 1.2rem;
+        width: 250px;
+        font-weight: 300;
+        margin: 0;
+    }
+    .meliputi-grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 300px 300px;
+        gap: 100px;
+    }
+    
+    .meliputi-grid-kiri,
+    .meliputi-grid-tengah,
+    .meliputi-grid-kanan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .meliputi-grid-kiri img,
+    .meliputi-grid-tengah img,
+    .meliputi-grid-kanan img{
+        object-fit: cover;
+        background-color: #003fae;
+        height: 180px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -webkit-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -moz-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        margin: 0px 0px 20px 0px;
+    }
+    .meliputi-grid-kanan img{
+        object-position: 0px -120px;
+    }
+    .meliputi-grid-tengah img {
+        object-position: -15px 0px;
+    }
+    .meliputi-grid-tengah h5,
+    .meliputi-grid-kanan h5{
+        width: 250px;
+        margin-bottom: 100px;
+    }
+    .meliputi-grid-kiri h5{
+        margin-bottom: 100px;
+    }
+    
+    .sesi-akhir {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 100px 30px 0px 30px;
+      }
+      .logo-software {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+      }
+      .logo-software img {
+        height: 200px;
+        padding-top: 70px;
+      }
+      .logo-software .ansys-logo {
+        height: 100px;
+      }
+      .logo-software .open-logo {
+        margin: 0px 50px 0px 50px;
+      }
+      
+      .logo-standard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 120px;
+      }
+      .logo-standard img {
+        height: 130px;
+        margin: 50px 30px 20px 0px;
+      }
+    
+    .sect-4 {
+        padding: 20px 50px 80px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(238, 238, 238);
+    }
+    .sect-4 h3{
+        margin: 50px 0px 70px 0px;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #003fae;
+    }
+    .laya-grid {
+        display: grid;
+        grid-template-columns: 500px ;
+        column-gap: 50px;
+        row-gap: 50px;
+    }
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas {
+        margin: 0px 0px 50px 0px;
+    }
+
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas,
+    .laya-kiri-bawah,
+    .laya-tengah-bawah,
+    .laya-kanan-bawah {
+        background-color: white;
+        height: 500px;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -webkit-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -moz-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+    }
+
+    .laya-kiri-atas img,
+    .laya-tengah-atas img,
+    .laya-kanan-atas img,
+    .laya-kiri-bawah img,
+    .laya-tengah-bawah img,
+    .laya-kanan-bawah img {
+        height: 120px;
+    }
+
+    .laya-kiri-atas h5,
+    .laya-tengah-atas h5,
+    .laya-kanan-atas h5,
+    .laya-kiri-bawah h5,
+    .laya-tengah-bawah h5,
+    .laya-kanan-bawah h5{
+        margin: 30px 0px 30px 0px;
+        font-weight: 600;
+        font-size: 2rem;
+        width: 180px;
+    }
+    .laya-kiri-atas h6,
+    .laya-tengah-atas h6,
+    .laya-kanan-atas h6,
+    .laya-kiri-bawah h6,
+    .laya-tengah-bawah h6,
+    .laya-kanan-bawah h6{
+        font-weight: 300;
+        font-size: 1.3rem;
+        line-height: 28px;
+        width: 380px;
+        margin: 0px 0px 50px 0px;
+    }
+    .laya-kiri-atas a,
+    .laya-tengah-atas a,
+    .laya-kanan-atas a,
+    .laya-kiri-bawah a,
+    .laya-tengah-bawah a,
+    .laya-kanan-bawah a{
+        text-decoration: none;
+        color: rgb(26, 63, 228);
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    
+    .sect-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-kiri {
+        margin: 50px 0px 30px 0px;
+    }
+    .logo-kiri h3 {
+        font-size: 1.8rem;
+        width: 650px;
+        text-align: center;
+        color: rgb(175, 175, 175);
+    }
+    .logo-kanan {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        border-color: lightgrey;
+        border-radius: 20px;
+        border-width: 2px;
+        border-style: solid;
+    }
+    .logo-kanan img {
+        margin: 0px 0px 30px 0px;
+        width: 700px;
+    }
+    
+    .sect-7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 120px 0px 60px 0px;
+    }
+    .biaya {
+        display: flex;
+        align-items: center;
+    }
+    
+    .biaya-kiri {
+        margin-right: 280px;
+    }
+    .biaya-kiri h3 {
+        font-size: 3.5rem;
+        font-weight: 600;
+        width: 500px;
+        margin: 0px 0px 25px 0px;
+        color: #003fae;
+    }
+    .biaya-kiri h6 {
+        width: 550px;
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin: 0px 0px 80px 0px;
+    }
+    .biaya-kanan img {
+        display: none;
+        margin-left: 80px;
+        object-fit: cover;
+        height: 260px;
+        width: 400px;
+        border-radius: 20px;
+    }
+    .button {
+        border: none;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 50px;
+        color: white;
+        background-color: #003fae;
+        font-size: 18px;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+      
+      .button:hover {
+        transform: translateY(-3px);
+        background-color: #043282;
+      }
+      
+      .button:active {
+        background-color: #003fae;
+      }
+}
+
+@media(max-width: 768px) {
+    .sect-1 {
+        background-color: lightgrey;
+        height: 400px;
+        display: flex;
+        align-items: center;
+    }
+    .sansys {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        margin: 0px 0px 0px 80px;
+    }
+    .sansys h4 {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .sansys h1 {
+        margin: 0;
+        font-size: 2.5rem;
+    }
+    
+    .sect-2 {
+        display: flex;
+        padding: 100px 0px 100px 0px;
+        align-items: center ;
+    }
+    .memer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 90px;
+    }
+    .sect-2 h3 {
+        width: 400px;
+        margin: 0px 0px 25px 0px;
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+    .sect-2 h5 {
+        width: 550px;
+        font-weight: 300;
+        margin: 0px 0px 10px 0px;
+        font-size: 0.6rem;
+    }
+    
+    .sect-3 {
+        padding: 60px 100px 40px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f8faff;
+    }
+    .sect-3 h3 {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: #003fae;
+        margin: 0px 0px 50px 0px;
+    }
+    .sect-3 h4{
+        color: #003fae;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin: 0px 0px 25px 0px;
+    }
+    .sect-3 h5 {
+        font-size: 1.2rem;
+        width: 250px;
+        font-weight: 300;
+        margin: 0;
+    }
+    .meliputi-grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 300px;
+        gap: 0px;
+    }
+    
+    .meliputi-grid-kiri,
+    .meliputi-grid-tengah,
+    .meliputi-grid-kanan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .meliputi-grid-kiri img,
+    .meliputi-grid-tengah img,
+    .meliputi-grid-kanan img{
+        object-fit: cover;
+        background-color: #003fae;
+        height: 180px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -webkit-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -moz-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        margin: 0px 0px 20px 0px;
+    }
+    .meliputi-grid-kanan img{
+        object-position: 0px -120px;
+    }
+    .meliputi-grid-tengah img {
+        object-position: -15px 0px;
+    }
+    .meliputi-grid-tengah h5,
+    .meliputi-grid-kanan h5{
+        width: 250px;
+        margin-bottom: 60px;
+    }
+    .meliputi-grid-kiri h5{
+        margin-bottom: 60px;
+    }
+    
+    .sesi-akhir {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 100px 30px 0px 30px;
+      }
+      .logo-software {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+      }
+      .logo-software img {
+        height: 150px;
+        padding-top: 20px;
+      }
+      .logo-software .ansys-logo {
+        height: 80px;
+      }
+      .logo-software .open-logo {
+        margin: -30px 50px 0px 50px;
+      }
+      
+      .logo-standard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 120px;
+      }
+      .logo-standard img {
+        height: 80px;
+        margin: 50px 30px 20px 0px;
+      }
+    
+    .sect-4 {
+        padding: 20px 50px 80px 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(238, 238, 238);
+    }
+    .sect-4 h3{
+        margin: 50px 0px 70px 0px;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #003fae;
+    }
+    .laya-grid {
+        display: grid;
+        grid-template-columns: 1fr ;
+        column-gap: 50px;
+        row-gap: 50px;
+    }
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas {
+        margin: 0px 0px 50px 0px;
+    }
+
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas,
+    .laya-kiri-bawah,
+    .laya-tengah-bawah,
+    .laya-kanan-bawah {
+        background-color: white;
+        height: 500px;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -webkit-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -moz-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+    }
+
+    .laya-kiri-atas img,
+    .laya-tengah-atas img,
+    .laya-kanan-atas img,
+    .laya-kiri-bawah img,
+    .laya-tengah-bawah img,
+    .laya-kanan-bawah img {
+        height: 120px;
+    }
+
+    .laya-kiri-atas h5,
+    .laya-tengah-atas h5,
+    .laya-kanan-atas h5,
+    .laya-kiri-bawah h5,
+    .laya-tengah-bawah h5,
+    .laya-kanan-bawah h5{
+        margin: 30px 0px 30px 0px;
+        font-weight: 600;
+        font-size: 2rem;
+        width: 180px;
+    }
+    .laya-kiri-atas h6,
+    .laya-tengah-atas h6,
+    .laya-kanan-atas h6,
+    .laya-kiri-bawah h6,
+    .laya-tengah-bawah h6,
+    .laya-kanan-bawah h6{
+        font-weight: 300;
+        font-size: 1.3rem;
+        line-height: 28px;
+        width: 380px;
+        margin: 0px 0px 50px 0px;
+    }
+    .laya-kiri-atas a,
+    .laya-tengah-atas a,
+    .laya-kanan-atas a,
+    .laya-kiri-bawah a,
+    .laya-tengah-bawah a,
+    .laya-kanan-bawah a{
+        text-decoration: none;
+        color: rgb(26, 63, 228);
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    
+    .sect-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-kiri {
+        margin: 50px 0px 30px 0px;
+    }
+    .logo-kiri h3 {
+        font-size: 1.2rem;
+        width: 450px;
+        text-align: center;
+        color: rgb(175, 175, 175);
+    }
+    .logo-kanan {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        border-color: lightgrey;
+        border-radius: 20px;
+        border-width: 2px;
+        border-style: solid;
+    }
+    .logo-kanan img {
+        margin: 0px 0px 30px 0px;
+        width: 500px;
+    }
+    
+    .sect-7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 120px 0px 60px 0px;
+    }
+    .biaya {
+        display: flex;
+        align-items: center;
+    }
+    
+    .biaya-kiri {
+        margin-right: 180px;
+    }
+    .biaya-kiri h3 {
+        font-size: 2.3rem;
+        font-weight: 600;
+        width: 250px;
+        margin: 0px 0px 25px 0px;
+        color: #003fae;
+    }
+    .biaya-kiri h6 {
+        width: 400px;
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 0px 0px 40px 0px;
+    }
+    .biaya-kanan img {
+        display: none;
+        margin-left: 80px;
+        object-fit: cover;
+        height: 260px;
+        width: 400px;
+        border-radius: 20px;
+    }
+    .button {
+        border: none;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-right: 17px;
+        padding-left: 17px;
+        border-radius: 50px;
+        color: white;
+        background-color: #003fae;
+        font-size: 15px;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+      
+      .button:hover {
+        transform: translateY(-3px);
+        background-color: #043282;
+      }
+      
+      .button:active {
+        background-color: #003fae;
+      }
+}
+
+@media(max-width: 640px) {
+    .sect-1 {
+        background-color: lightgrey;
+        height: 320px;
+        display: flex;
+        align-items: center;
+    }
+    .sansys {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        margin: 0px 0px 0px 50px;
+    }
+    .sansys h4 {
+        margin: 0;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+    .sansys h1 {
+        margin: 0;
+        font-size: 2rem;
+    }
+    
+    .sect-2 {
+        display: flex;
+        padding: 50px 0px 50px 0px;
+        align-items: center ;
+    }
+    .memer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 50px;
+    }
+    .sect-2 h3 {
+        width: 350px;
+        margin: 0px 0px 25px 0px;
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+    .sect-2 h5 {
+        width: 385px;
+        line-height: 15px;
+        font-weight: 300;
+        margin: 0px 0px 10px 0px;
+        font-size: 0.6rem;
+    }
+    
+    .sect-3 {
+        padding: 50px 100px 40px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f8faff;
+    }
+    .sect-3 h3 {
+        font-size: 1.3rem;
+        font-weight: 800;
+        color: #003fae;
+        margin: 0px 0px 30px 0px;
+    }
+    .sect-3 h4{
+        color: #003fae;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 16px 0px 20px 0px;
+    }
+    .sect-3 h5 {
+        font-size: 1rem;
+        width: 180px;
+        font-weight: 300;
+        margin: 0;
+    }
+    .meliputi-grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 300px;
+        gap: 20px;
+    }
+    
+    .meliputi-grid-kiri,
+    .meliputi-grid-tengah,
+    .meliputi-grid-kanan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .meliputi-grid-kiri img,
+    .meliputi-grid-tengah img,
+    .meliputi-grid-kanan img{
+        object-fit: cover;
+        background-color: #003fae;
+        height: 180px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -webkit-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -moz-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        margin: 0px 0px 20px 0px;
+    }
+    .meliputi-grid-kanan img{
+        object-position: 0px -120px;
+    }
+    .meliputi-grid-tengah img {
+        object-position: -15px 0px;
+    }
+    .meliputi-grid-tengah h5,
+    .meliputi-grid-kanan h5{
+        width: 180px;
+        margin-bottom: 60px;
+    }
+    .meliputi-grid-kiri h5{
+        margin-bottom: 60px;
+    }
+    
+    .sesi-akhir {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 100px 30px 0px 30px;
+      }
+      .logo-software {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+      }
+      .logo-software img {
+        height: 120px;
+        padding-top: 20px;
+      }
+      .logo-software .ansys-logo {
+        height: 60px;
+      }
+      .logo-software .open-logo {
+        margin: -30px 50px 0px 50px;
+      }
+      
+      .logo-standard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 120px;
+      }
+      .logo-standard img {
+        height: 80px;
+        margin: 50px 30px 20px 0px;
+      }
+    
+    .sect-4 {
+        padding: 20px 100px 80px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(238, 238, 238);
+    }
+    .sect-4 h3{
+        margin: 30px 0px 30px 0px;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #003fae;
+    }
+    .laya-grid {
+        display: grid;
+        grid-template-columns: 350px ;
+        column-gap: 50px;
+        row-gap: 50px;
+    }
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas {
+        margin: 0px 0px 50px 0px;
+    }
+
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas,
+    .laya-kiri-bawah,
+    .laya-tengah-bawah,
+    .laya-kanan-bawah {
+        background-color: white;
+        height: 500px;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -webkit-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -moz-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+    }
+
+    .laya-kiri-atas img,
+    .laya-tengah-atas img,
+    .laya-kanan-atas img,
+    .laya-kiri-bawah img,
+    .laya-tengah-bawah img,
+    .laya-kanan-bawah img {
+        height: 80px;
+    }
+
+    .laya-kiri-atas h5,
+    .laya-tengah-atas h5,
+    .laya-kanan-atas h5,
+    .laya-kiri-bawah h5,
+    .laya-tengah-bawah h5,
+    .laya-kanan-bawah h5{
+        margin: 30px 0px 30px 0px;
+        font-weight: 600;
+        font-size: 1.5rem;
+        width: 180px;
+    }
+    .laya-kiri-atas h6,
+    .laya-tengah-atas h6,
+    .laya-kanan-atas h6,
+    .laya-kiri-bawah h6,
+    .laya-tengah-bawah h6,
+    .laya-kanan-bawah h6{
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 28px;
+        width: 280px;
+        margin: 0px 0px 50px 0px;
+    }
+    .laya-kiri-atas a,
+    .laya-tengah-atas a,
+    .laya-kanan-atas a,
+    .laya-kiri-bawah a,
+    .laya-tengah-bawah a,
+    .laya-kanan-bawah a{
+        text-decoration: none;
+        color: rgb(26, 63, 228);
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    
+    .sect-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-kiri {
+        margin: 0px 0px 30px 0px;
+    }
+    .logo-kiri h3 {
+        font-size: 1.2rem;
+        width: 450px;
+        text-align: center;
+        color: rgb(175, 175, 175);
+    }
+    .logo-kanan {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        border-color: lightgrey;
+        border-radius: 20px;
+        border-width: 2px;
+        border-style: solid;
+    }
+    .logo-kanan img {
+        margin: 0px 0px 30px 0px;
+        width: 400px;
+    }
+    
+    .sect-7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 120px 0px 60px 0px;
+    }
+    .biaya {
+        display: flex;
+        align-items: center;
+    }
+    
+    .biaya-kiri {
+        margin-right: 130px;
+    }
+    .biaya-kiri h3 {
+        font-size: 2.3rem;
+        font-weight: 600;
+        width: 250px;
+        margin: 0px 0px 25px 0px;
+        color: #003fae;
+    }
+    .biaya-kiri h6 {
+        width: 400px;
+        font-size: 1rem;
+        font-weight: 300;
+        margin: 0px 0px 40px 0px;
+    }
+    .biaya-kanan img {
+        display: none;
+        margin-left: 80px;
+        object-fit: cover;
+        height: 260px;
+        width: 400px;
+        border-radius: 20px;
+    }
+    .button {
+        border: none;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-right: 17px;
+        padding-left: 17px;
+        border-radius: 50px;
+        color: white;
+        background-color: #003fae;
+        font-size: 15px;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+      
+      .button:hover {
+        transform: translateY(-3px);
+        background-color: #043282;
+      }
+      
+      .button:active {
+        background-color: #003fae;
+      }
+}
+
+@media(max-width: 460px) {
+    .sect-1 {
+        background-color: lightgrey;
+        height: 250px;
+        display: flex;
+        align-items: center;
+    }
+    .sansys {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        margin: 0px 0px 0px 30px;
+    }
+    .sansys h4 {
+        margin: 0;
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+    .sansys h1 {
+        margin: 0;
+        font-size: 1.8rem;
+    }
+    
+    .sect-2 {
+        display: flex;
+        padding: 50px 0px 50px 0px;
+        align-items: center ;
+    }
+    .memer {
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0px 0px 30px;
+    }
+    .sect-2 h3 {
+        width: 250px;
+        margin: 0px 0px 25px 0px;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+    .sect-2 h5 {
+        width: 380px;
+        line-height: 12px;
+        font-weight: 300;
+        margin: 0px 0px 10px 0px;
+        font-size: 0.6rem;
+    }
+    
+    .sect-3 {
+        padding: 60px 100px 40px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #f8faff;
+    }
+    .sect-3 h3 {
+        font-size: 1.2rem;
+        font-weight: 800;
+        color: #003fae;
+        margin: 0px 0px 50px 0px;
+    }
+    .sect-3 h4{
+        color: #003fae;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin: 16px 0px 20px 0px;
+    }
+    .sect-3 h5 {
+        font-size: 1rem;
+        width: 180px;
+        font-weight: 300;
+        margin: 0;
+    }
+    .meliputi-grid {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 300px;
+        gap: 0px;
+    }
+    
+    .meliputi-grid-kiri,
+    .meliputi-grid-tengah,
+    .meliputi-grid-kanan {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .meliputi-grid-kiri img,
+    .meliputi-grid-tengah img,
+    .meliputi-grid-kanan img{
+        object-fit: cover;
+        background-color: #003fae;
+        height: 180px;
+        width: 250px;
+        border-radius: 10px;
+        box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -webkit-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        -moz-box-shadow: 5px 6px 16px -8px rgba(0,0,0,0.6);
+        margin: 0px 0px 20px 0px;
+    }
+    .meliputi-grid-kanan img{
+        object-position: 0px -120px;
+    }
+    .meliputi-grid-tengah img {
+        object-position: -15px 0px;
+    }
+    .meliputi-grid-tengah h5,
+    .meliputi-grid-kanan h5{
+        width: 180px;
+        margin-bottom: 60px;
+    }
+    .meliputi-grid-kiri h5{
+        margin-bottom: 60px;
+    }
+    
+    .sesi-akhir {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 1rem;
+        font-weight: 500;
+        padding: 100px 30px 0px 30px;
+      }
+      .logo-software {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+      }
+      .logo-software img {
+        height: 120px;
+        padding-top: 20px;
+      }
+      .logo-software .ansys-logo {
+        height: 60px;
+      }
+      .logo-software .open-logo {
+        margin: -30px 50px 0px 50px;
+      }
+      
+      .logo-standard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 120px;
+      }
+      .logo-standard img {
+        height: 80px;
+        margin: 50px 30px 20px 0px;
+      }
+    
+    .sect-4 {
+        padding: 20px 100px 80px 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(238, 238, 238);
+    }
+    .sect-4 h3{
+        margin: 20px 0px 40px 0px;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #003fae;
+    }
+    .laya-grid {
+        display: grid;
+        grid-template-columns: 350px ;
+        column-gap: 50px;
+        row-gap: 50px;
+    }
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas {
+        margin: 0px 0px 50px 0px;
+    }
+
+    .laya-kiri-atas,
+    .laya-tengah-atas,
+    .laya-kanan-atas,
+    .laya-kiri-bawah,
+    .laya-tengah-bawah,
+    .laya-kanan-bawah {
+        background-color: white;
+        height: 500px;
+        border-radius: 15px;
+        padding: 30px;
+        box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -webkit-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+        -moz-box-shadow: 9px 9px 49px -3px rgba(0,0,0,0.14);
+    }
+
+    .laya-kiri-atas img,
+    .laya-tengah-atas img,
+    .laya-kanan-atas img,
+    .laya-kiri-bawah img,
+    .laya-tengah-bawah img,
+    .laya-kanan-bawah img {
+        height: 80px;
+    }
+
+    .laya-kiri-atas h5,
+    .laya-tengah-atas h5,
+    .laya-kanan-atas h5,
+    .laya-kiri-bawah h5,
+    .laya-tengah-bawah h5,
+    .laya-kanan-bawah h5{
+        margin: 30px 0px 30px 0px;
+        font-weight: 600;
+        font-size: 1.5rem;
+        width: 180px;
+    }
+    .laya-kiri-atas h6,
+    .laya-tengah-atas h6,
+    .laya-kanan-atas h6,
+    .laya-kiri-bawah h6,
+    .laya-tengah-bawah h6,
+    .laya-kanan-bawah h6{
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 28px;
+        width: 280px;
+        margin: 0px 0px 50px 0px;
+    }
+    .laya-kiri-atas a,
+    .laya-tengah-atas a,
+    .laya-kanan-atas a,
+    .laya-kiri-bawah a,
+    .laya-tengah-bawah a,
+    .laya-kanan-bawah a{
+        text-decoration: none;
+        color: rgb(26, 63, 228);
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
+    
+    .sect-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo-kiri {
+        margin: 0px 0px 30px 0px;
+    }
+    .logo-kiri h3 {
+        font-size: 1.2rem;
+        width: 450px;
+        text-align: center;
+        color: rgb(175, 175, 175);
+    }
+    .logo-kanan {
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+        border-color: lightgrey;
+        border-radius: 20px;
+        border-width: 2px;
+        border-style: solid;
+    }
+    .logo-kanan img {
+        margin: 0px 0px 30px 0px;
+        width: 300px;
+    }
+    
+    .sect-7 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 80px 0px 60px 0px;
+    }
+    .biaya {
+        display: flex;
+        align-items: center;
+    }
+    
+    .biaya-kiri {
+        margin-right: 30px;
+    }
+    .biaya-kiri h3 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        width: 250px;
+        margin: 0px 0px 25px 0px;
+        color: #003fae;
+    }
+    .biaya-kiri h6 {
+        width: 400px;
+        font-size: 0.8rem;
+        font-weight: 300;
+        margin: 0px 0px 40px 0px;
+    }
+    .biaya-kanan img {
+        display: none;
+        margin-left: 80px;
+        object-fit: cover;
+        height: 260px;
+        width: 400px;
+        border-radius: 20px;
+    }
+    .button {
+        border: none;
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-right: 17px;
+        padding-left: 17px;
+        border-radius: 50px;
+        color: white;
+        background-color: #003fae;
+        font-size: 15px;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+      
+      .button:hover {
+        transform: translateY(-3px);
+        background-color: #043282;
+      }
+      
+      .button:active {
+        background-color: #003fae;
+      }
+}

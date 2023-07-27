@@ -1,0 +1,74 @@
+.sect-1 {
+    padding: 80px 80px 80px 280px;
+    background-color: rgb(194, 191, 191);
+    background-image: url(../img/porto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    background-blend-mode: overlay;
+}
+.sect-1 h1 {
+    margin: 0;
+    font-size: 4.3rem;
+    width: 700px;
+    color: #003fae;
+}
+.sect-1 h4 {
+    margin: 40px 0px 40px 0px;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.sect-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 80px;
+}
+.down2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 0px 120px 0px;
+}
+.down2-txt {
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+}
+.down2-txt h4 {
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin: 0px 0px 20px 0px ;
+    width: 520px;
+    color: #003fae;
+}
+.down2-txt h5 {
+    width: 400px;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 25px;
+    margin: 10px 0px 12px 0px ;
+}
+.down2-txt h6 {
+    width: 400px;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 25px;
+    margin: 0;
+}
+.down2-txt h3 {
+    width: 300px;
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 45px;
+    margin: 0;
+}
+.lain-img {
+    height: 320px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-left: 60px;
+}
